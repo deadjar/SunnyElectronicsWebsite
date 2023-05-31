@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "642c27e4c93ee9e8e490a583"
+  },
+  "code": "thermostat",
+  "name": "Homebee Thermostat",
+  "description": "Homebee is a great choice for anyone looking to save energy and money on their heating and cooling bills. It is easy to use and has a variety of features that can help you control your home's temperature from anywhere.",
+  "price": 1110.99,
+  "quantity": 1
+},{
+  "_id": {
+    "$oid": "642c27e4c93ee9e8e490a584"
+  },
+  "code": "tile",
+  "name": "Tile Tracker",
+  "description": "Tile trackers are small, Bluetooth-enabled devices that can be attached to your keys, wallet, or other belongings. If you lose an item with a Tile tracker attached, you can use the Tile app to find it. The app will show you the last known location of the item, and you can also make it ring so you can find it by sound.",
+  "price": 79.99,
+  "quantity": 1
+},{
+  "_id": {
+    "$oid": "642c27e4c93ee9e8e490a585"
+  },
+  "code": "acer",
+  "name": "Acer Laptop",
+  "description": "Acer laptops offer good performance for their price, making them a great choice for everyday tasks like browsing the web, checking email, and working on documents.",
+  "price": 799.99,
+  "quantity": 1
+},{
+  "_id": {
+    "$oid": "642c27e4c93ee9e8e490a586"
+  },
+  "code": "dell",
+  "name": "Dell Laptop",
+  "description": "Dell offers a wide range of laptops to choose from, so you can find the perfect one for your needs. Whether you're looking for a powerful gaming laptop or a lightweight and portable laptop, Dell has something for everyone.",
+  "price": 1110.99,
+  "quantity": 1
+},{
+  "_id": {
+    "$oid": "642c27e4c93ee9e8e490a587"
+  },
+  "code": "mac",
+  "name": "Mac Laptop",
+  "description": "Apple offers a wide range of laptops to choose from, so you can find the perfect one for your needs. Whether you're looking for a powerful MacBook Pro or a lightweight MacBook Air, Apple has something for everyone.",
+  "price": 1899.99,
+  "quantity": 1
+},{
+  "_id": {
+    "$oid": "642c27e4c93ee9e8e490a588"
+  },
+  "code": "samsungS23",
+  "name": "Samsung S23",
+  "description": "The Galaxy S23 has a sleek and modern design with a flat display and a metal frame. It is available in three colors: Phantom Black, Phantom White, and Green. The phone is water-resistant and has a dustproof rating of IP68.",
+  "price": 799.99,
+  "quantity": 1
+},{
+  "_id": {
+    "$oid": "642c27e4c93ee9e8e490a589"
+  },
+  "code": "powerbank",
+  "name": "Powerbank",
+  "description": "A power bank is a portable charger that can be used to charge electronic devices such as smartphones, tablets, and laptops. It is a battery-powered device that can be plugged into a wall outlet to charge, and then used to charge other devices when they are not near a power source.",
+  "price": 99.99,
+  "quantity": 1
+},{
+  "_id": {
+    "$oid": "642c27e4c93ee9e8e490a590"
+  },
+  "code": "hpdesktop",
+  "name": "HP Desktop",
+  "description": "HP desktops are a great choice for people who need a powerful computer for gaming, video editing, or other demanding tasks. They are also a good option for businesses and schools that need reliable computers for their employees and students.",
+  "price": 999.99,
+  "quantity": 1
+},{
+  "_id": {
+    "$oid": "642c27e4c93ee9e8e490a591"
+  },
+  "code": "dysonDC58",
+  "name": "Dyson Vacuum DC58",
+  "description": "The Dyson DC58 is a cordless handheld vacuum cleaner that is powered by the Dyson V6 digital motor. It has a 21.6-volt lithium-ion battery that provides up to 20 minutes of continuous cleaning time. The DC58 has a variety of attachments that make it ideal for cleaning a variety of surfaces, including floors, furniture, and stairs. It also has a HEPA filter that traps 99.97% of allergens and pollutants.",
+  "price": 2199.99,
+  "quantity": 1
+},{
+  "_id": {
+    "$oid": "642c27e4c93ee9e8e490a592"
+  },
+  "code": "airpods",
+  "name": "Apple Airpods",
+  "description": "Apple AirPods are wireless Bluetooth earbuds that are designed to work seamlessly with Apple devices. They are small, lightweight, and easy to use, and they offer a variety of features that make them a great choice for listening to music, making calls, and getting directions.",
+  "price": 199.99,
+  "quantity": 1
+}]

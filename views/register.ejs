@@ -1,0 +1,42 @@
+<%-message%>
+  <form class="registration_form" name="register" method="post" action="register">
+    <div class="form">
+      <div class="title">Register</div>
+      <div class="input-container ic1">
+        <input id="register_userid" class="input" type="text" placeholder=" " name="userid" />
+        <div class="cut"></div>
+        <label for="register_userid" class="placeholder">Username</label>
+      </div>
+      <div class="input-container ic2">
+        <input id="register_userpass" class="input" type="password" placeholder=" " name="password" />
+        <div class="cut"></div>
+        <label for="register_userpass" class="placeholder">Password</label>
+        <i class="fa-solid fa-eye" id="eye"></i>
+      </div>
+      <div class="input-container ic3">
+        <input id="register_userpass2" class="input" type="password" placeholder=" " name="password2" />
+        <div class="cut"></div>
+        <label for="register_userpass2" class="placeholder">Confirm Password</label>
+      </div>
+      <center>
+        <%-message%>
+          <div class="registration_button">
+            <a href="/login">Log-In</a>
+          </div>
+      </center>
+      <input class="submit" type="submit" name="choice" value="Enter" />
+      <input class="submit" type="submit" name="choice" value="Clear" />
+    </div>
+  </form>
+  <script>
+    const passwordInputs = document.querySelectorAll("#register_userpass, #register_userpass2");
+    const eye = document.querySelector("#eye");
+
+    eye.addEventListener("click", function () {
+      this.classList.toggle("fa-eye-slash");
+      passwordInputs.forEach(function (input) {
+        const type = input.getAttribute("type") === "password" ? "text" : "password";
+        input.setAttribute("type", type);
+      });
+    });
+  </script>
